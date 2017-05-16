@@ -1,0 +1,31 @@
+File Zilla Client eka install kraganna..
+Host : ftp://waws-prod-sn1-021.ftp.azurewebsites.windows.net
+username : icareu\group16
+password : g16@ucsc
+port : 21
+host = br-cdbr-azure-south-b.cloudapp.net
+user name= b4c9e4de10ed39
+password = ac9164be
+database = icareu
+
+
+Host : us-cdbr-azure-southcentral-f.cloudapp.net
+UserNAme : bfe87d83d52bf6
+password : 4d3b3617
+database name : icareu16
+
+<form action="Javascript:editGuardian();">
+                        <br>
+                        <table id="viewElderRegisterNew_GuardianDetails">
+                    <tr><td width="150">Full Name</td><td><input style="width:300px;" type="text" pattern="[A-z ]+" name="editGuardianName"/></td></tr>
+                    <tr><td>NIC</td> <td><input type="text" name="RegisterGuardianField" pattern="[0-9]{9}[VX]" class="NIC"  maxlength="10""/></td></tr>
+                    <tr><td>Gender</td><td><input type="radio" name="gender" value="male" checked> Male
+                        <input type="radio" name="gender" value="female"> Female</td></tr>
+                    <tr><td>Contact Number</td>	<td><input type="text" pattern="[0-9]+"  maxlength="10"/></td></tr>
+                    <tr><td>Address</td><td><textarea type="text" cols="40" rows="5" style="resize:none"></textarea></td></tr>
+                </table>
+                        <input value="Cancel" id="btnEditGuardianCancel" onclick="editGuardianCancelClick();" type="button">
+                        <input type="submit" value="Save" id="btnEditGuardianCancel" onclick="editGuardian();">
+                        
+                    </form>
+
